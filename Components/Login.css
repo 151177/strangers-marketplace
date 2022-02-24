@@ -1,0 +1,30 @@
+.login-form {
+    display: flex;
+    justify-content: center;
+}
+
+.login-form-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.login-username-input-field {
+    margin: 4px 0px;
+}
+
+.login-password-input-field {
+    margin: 4px 0px;
+}
+
+.login-submit-button {
+    margin-top: 4px;
+    width: 210px;
+}
+
+.sign-up-link {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 16px;
+}

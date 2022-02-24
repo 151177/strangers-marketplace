@@ -1,0 +1,53 @@
+.new-post-form {
+    display: flex;
+    justify-content: center;
+}
+
+.new-post-form-content {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.title-input-field {
+    margin: 4px 0px;
+}
+
+.description-input-field {
+    margin: 4px 0px;
+}
+
+.price-input-field {
+    margin: 4px 0px;
+}
+
+.location-input-field {
+    margin: 4px 0px;
+}
+
+.will-deliver-label {
+    color: white;
+    margin: 8px 0px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+.will-deliver-selection {
+    margin-left: 8px;
+    height: 24px;
+    font-family: roboto, arial, Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    padding-right: 2px;
+    padding-left: 2px;
+    border: none;
+    border-radius: 2px;
+}
+
+.add-new-post-button {
+    margin: 4px 0px;
+    width: 270px;
+}

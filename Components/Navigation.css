@@ -1,0 +1,64 @@
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #011E3D;
+    padding-top: 14px;
+    padding-bottom: 18px;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 16px;
+    margin-bottom: 2px;
+}
+
+.subhead {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 16px;
+}
+
+.home-link {
+    color: #83dab6;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}
+
+.messages-link {
+    color: #83dab6;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.messages-link:hover {
+    text-decoration: underline;
+}
+
+.login-register-link, .logout-link {
+    color: #83dab6;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.login-register-link:hover {
+    text-decoration: underline;
+}
+
+.logout-link:hover {
+    text-decoration: underline;
+}

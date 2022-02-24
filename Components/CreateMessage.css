@@ -1,0 +1,32 @@
+.new-message-form {
+    display: flex;
+    justify-content: center;
+}
+
+.new-message-form-content {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.title-input-field {
+    margin: 4px 0px;
+}
+
+.message-input-field {
+    margin: 4px 0px;
+}
+
+.send-message-button {
+    margin: 4px 0px;
+    width: 210px;
+}
+
+.send-message-label {
+    font-family: roboto, arial, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}

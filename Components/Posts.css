@@ -1,0 +1,83 @@
+.create-new-post-button {
+    margin-left: 32px;
+}
+
+.posts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 24px 32px 0px 32px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    min-height: 200px;
+    margin: 16px;
+    background-color: #011E3D;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #024D9A;
+}
+
+.title {
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.description {
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.price {
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.username {
+    color: white;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    text-align: right;
+}
+
+.location {
+    color: white;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    font-style: italic;
+}
+
+.will-deliver {
+    color: white;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.send-message-button {
+    margin: 4px 0px;
+    width: 210px;
+}
+
+.delete-button {
+    margin: 4px 0px;
+    width: 210px;
+    background-color: rgb(55, 81, 113);
+}

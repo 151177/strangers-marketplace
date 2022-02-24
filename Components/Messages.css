@@ -1,0 +1,28 @@
+.messages {
+    margin: 32px;
+}
+
+.single-message {
+    background-color: rgb(1, 0, 26);
+    padding-left: 24px;
+}
+
+.from-label, .message-label {
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-left: 2px;
+    margin-bottom: 0px;
+    font-family: roboto, arial, Arial, Helvetica, sans-serif;
+}
+
+.from, .message {
+    color: white;
+    font-size: 16px;
+    line-height: 12px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    font-family: roboto, arial, Arial, Helvetica, sans-serif;
+}
