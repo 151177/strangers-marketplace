@@ -1,3 +1,4 @@
+import "./Search.css";
 import { useState, useEffect } from "react";
 
 const Search = ({ posts, setPosts, setFilteredPosts }) => {
